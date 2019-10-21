@@ -32,6 +32,7 @@ With Account Factory, central cloud administrators and AWS Single Sign\-On end u
                 "sso:ProvisionApplicationProfileForAWSAccountInstance",
                 "sso:ProvisionSAMLProvider",
                 "sso:ListProfileAssociations",
+                "sso:DescribeRegisteredRegions",
                 "sso-directory:ListMembersInGroup",
                 "sso-directory:AddMemberToGroup",
                 "sso-directory:SearchGroups",
@@ -44,7 +45,8 @@ With Account Factory, central cloud administrators and AWS Single Sign\-On end u
                 "controltower:CreateManagedAccount",
                 "controltower:DescribeManagedAccount",
                 "controltower:DeregisterManagedAccount",
-                "s3:GetObject"
+                "s3:GetObject",
+                "organizations:DescribeOrganization"
             ],
             "Resource": "*"
         }
